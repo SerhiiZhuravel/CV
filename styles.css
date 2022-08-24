@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background-color: #555252;
+    color: #0f141e;
+    font-size: 16px;
+    font-family: Roboto,  sans-serif; 
+    font: normal 16px 'Roboto', sans-serif;
+}
+
+h2{
+    color: rgb(58, 141, 37);
+}
+h2:active{
+    color: blue;
+}
+h2:hover {
+text-decoration: underline;
+}
+
+/*h1{ 
+    color: #000;
+}*/
+.avatar{
+    width:200px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 14px rgba(0,0,0,0.25);
+}
+ 
+
+.info{
+    display: flex;
+    color: #171718;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    max-width: 750px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+@media (max-width: 650px){
+    .info{
+    text-align: center;    
+    display: block;   
+    }
+}
+
+.info-text{
+    margin: 10px 60px;
+}
+
+.container{
+    /* background: greenyellow;     */
+    max-width: 750px;
+    margin: auto;
+}
+
+.bg-yellow {
+    background: #fff9dc;
+}
+.bg-green{
+    background: #e5ffe7;
+}
+.bg-red {
+    background: #ffe5e5
+}
+.bg-grey {
+    background: rgb(212, 212, 209);
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.card h4{
+    margin: 10px 10px;
+}
+
+.list {
+    padding: 0 20px;
+    list-style: none;
+}
+.list li {
+    margin-bottom: 10px;
+     /* padding: 5px; */
+    border-bottom: 1px solid #ccc ;
+}
+
+.table {
+    width: 100%;
+
+}
+.table td {
+    padding-bottom: 10px;
+}
+.table th {
+    padding-bottom: 10px;
+}
+.table td:nth-child(2),.table td:nth-child(3) {
+    color: #86898f;
+}
+    /* .table tr:nth-child(even){
+     background: #4e6ba5;
+    } */
+.skils {
+    list-style: none;
+    padding: 0;
+}
+.skils li {
+   margin-bottom: 10px; 
+   border-bottom: 1px solid #ccc ;
+}
+.contact h2 {
+    text-align: center;
+}
+.form-group label{
+    display: block;
+    font-size: 14px;   
+    color: #86898f; 
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    font-size: 14px; 
+
+    background: transparent;
+    border-bottom: 1px solid rgb(180, 175, 175);
+    color: #000;
+    padding: 10px 10px 5px;
+    outline: none;
+    font-family: inherit;
+}
+.row {
+display: flex;  
+margin-bottom: 20px;  
+}
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+.row > .form-group:last-child {
+    margin-right: 0;
+}
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color:#fff ;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* position
+.position {
+    border: 4px solid black;
+    margin-top: 40px;
+    padding: 20px;
+}
+.box {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: lightcoral;
+} */
+
+
+
+
+
+.temp {
+    margin-bottom: 300px;
+}
